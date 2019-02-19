@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34CBCBF16097538AA4983017 /* Pods_unit5HW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D445213D2B010A7C70D93D3 /* Pods_unit5HW.framework */; };
 		36A7CC73221AA708007FBAD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC72221AA708007FBAD6 /* AppDelegate.swift */; };
-		36A7CC75221AA708007FBAD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC74221AA708007FBAD6 /* ViewController.swift */; };
 		36A7CC78221AA708007FBAD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A7CC76221AA708007FBAD6 /* Main.storyboard */; };
 		36A7CC7A221AA70A007FBAD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36A7CC79221AA70A007FBAD6 /* Assets.xcassets */; };
 		36A7CC7D221AA70A007FBAD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36A7CC7B221AA70A007FBAD6 /* LaunchScreen.storyboard */; };
+		36A7CC85221B860E007FBAD6 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC84221B860E007FBAD6 /* LoginViewController.swift */; };
+		36A7CC87221B8629007FBAD6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC86221B8629007FBAD6 /* FeedViewController.swift */; };
+		36A7CC89221B920C007FBAD6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC88221B920C007FBAD6 /* CameraViewController.swift */; };
+		36A7CC8B221C963B007FBAD6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC8A221C963B007FBAD6 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		36A7CC6F221AA708007FBAD6 /* unit5HW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = unit5HW.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36A7CC72221AA708007FBAD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		36A7CC74221AA708007FBAD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		36A7CC77221AA708007FBAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		36A7CC79221AA70A007FBAD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		36A7CC7C221AA70A007FBAD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		36A7CC7E221AA70A007FBAD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		36A7CC84221B860E007FBAD6 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		36A7CC86221B8629007FBAD6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		36A7CC88221B920C007FBAD6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		36A7CC8A221C963B007FBAD6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		6C5E9C61666A1D2B05AA6451 /* Pods-unit5HW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit5HW.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW.release.xcconfig"; sourceTree = "<group>"; };
+		9D445213D2B010A7C70D93D3 /* Pods_unit5HW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit5HW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C6D63AD45C77B89B4FE3F7 /* Pods-unit5HW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit5HW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34CBCBF16097538AA4983017 /* Pods_unit5HW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				36A7CC71221AA708007FBAD6 /* unit5HW */,
 				36A7CC70221AA708007FBAD6 /* Products */,
+				DB96562D6BF26407C4055F93 /* Pods */,
+				4C72025167E0889DA3E5524B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +68,33 @@
 			isa = PBXGroup;
 			children = (
 				36A7CC72221AA708007FBAD6 /* AppDelegate.swift */,
-				36A7CC74221AA708007FBAD6 /* ViewController.swift */,
 				36A7CC76221AA708007FBAD6 /* Main.storyboard */,
 				36A7CC79221AA70A007FBAD6 /* Assets.xcassets */,
 				36A7CC7B221AA70A007FBAD6 /* LaunchScreen.storyboard */,
 				36A7CC7E221AA70A007FBAD6 /* Info.plist */,
+				36A7CC84221B860E007FBAD6 /* LoginViewController.swift */,
+				36A7CC86221B8629007FBAD6 /* FeedViewController.swift */,
+				36A7CC88221B920C007FBAD6 /* CameraViewController.swift */,
+				36A7CC8A221C963B007FBAD6 /* PostCell.swift */,
 			);
 			path = unit5HW;
+			sourceTree = "<group>";
+		};
+		4C72025167E0889DA3E5524B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D445213D2B010A7C70D93D3 /* Pods_unit5HW.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB96562D6BF26407C4055F93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4C6D63AD45C77B89B4FE3F7 /* Pods-unit5HW.debug.xcconfig */,
+				6C5E9C61666A1D2B05AA6451 /* Pods-unit5HW.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36A7CC81221AA70A007FBAD6 /* Build configuration list for PBXNativeTarget "unit5HW" */;
 			buildPhases = (
+				63075C30A1CFB170FEE4A28D /* [CP] Check Pods Manifest.lock */,
 				36A7CC6B221AA708007FBAD6 /* Sources */,
 				36A7CC6C221AA708007FBAD6 /* Frameworks */,
 				36A7CC6D221AA708007FBAD6 /* Resources */,
+				64B5467C337DCD36E2B21694 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +165,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63075C30A1CFB170FEE4A28D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-unit5HW-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64B5467C337DCD36E2B21694 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		36A7CC6B221AA708007FBAD6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				36A7CC75221AA708007FBAD6 /* ViewController.swift in Sources */,
+				36A7CC85221B860E007FBAD6 /* LoginViewController.swift in Sources */,
+				36A7CC89221B920C007FBAD6 /* CameraViewController.swift in Sources */,
+				36A7CC87221B8629007FBAD6 /* FeedViewController.swift in Sources */,
 				36A7CC73221AA708007FBAD6 /* AppDelegate.swift in Sources */,
+				36A7CC8B221C963B007FBAD6 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +371,11 @@
 		};
 		36A7CC82221AA70A007FBAD6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C6D63AD45C77B89B4FE3F7 /* Pods-unit5HW.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4H5NF67NK;
 				INFOPLIST_FILE = unit5HW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +390,11 @@
 		};
 		36A7CC83221AA70A007FBAD6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C5E9C61666A1D2B05AA6451 /* Pods-unit5HW.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K4H5NF67NK;
 				INFOPLIST_FILE = unit5HW/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
