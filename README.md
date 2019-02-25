@@ -22,4 +22,4 @@ The following **bonus** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
-<img src="" width=250><br>
+<img src="https://github.com/JaksonLu/unit6HW/blob/master/HW6.gif" width=250><br>
