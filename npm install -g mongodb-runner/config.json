@@ -1,0 +1,7 @@
+{
+  "appId": "U3WdLFdWjFoAst34XTnhKo0eHuB2nLdMFlfQiPsT",
+  "masterKey": "8pjWTTjTAmHDKU7ocG9sn63wbKt5Kn6aDjgcjAaY",
+  "appName": "codepathunit5hw",
+  "cloud": "./cloud/main",
+  "databaseURI": "mongodb://heroku_h3pqslqz:2e8m9bmh81b9uli1ta7j7tgptc@ds341825.mlab.com:41825/heroku_h3pqslqz"
+}

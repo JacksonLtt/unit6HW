@@ -13,7 +13,7 @@ import Parse
 import AlamofireImage
 import MessageInputBar
 
-class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSource, MessageInputBarDelegate{
+class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSource,MessageInputBarDelegate{
 
     @IBOutlet weak var tableView: UITableView!
     let commentBar = MessageInputBar()
@@ -26,6 +26,7 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         
         commentBar.inputTextView.placeholder = "Add a comment..."
         commentBar.sendButton.title = "Post"
+        commentBar.delegate = self
         
         tableView.delegate = self
         tableView.dataSource = self
@@ -73,6 +74,7 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         comment["text"] = text
         comment["post"] = selectedPost
         comment["author"] = PFUser.current()!
+        
         selectedPost.add(comment, forKey: "comments")
         selectedPost.saveInBackground{ (success, error) in
             if success{
@@ -118,7 +120,7 @@ class FeedViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
         }else if indexPath.row <= comments.count{
             let cell = tableView.dequeueReusableCell(withIdentifier: "CommentCell") as! CommentCell
             let comment = comments[indexPath.row - 1]
-            cell.nameLabel.text = comment["text"] as? String
+            cell.commentLabel.text = comment["text"] as? String
             let user = comment["author"] as! PFUser
             cell.nameLabel.text = user.username
             return cell
