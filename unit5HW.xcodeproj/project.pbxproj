@@ -16,6 +16,7 @@
 		36A7CC87221B8629007FBAD6 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC86221B8629007FBAD6 /* FeedViewController.swift */; };
 		36A7CC89221B920C007FBAD6 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC88221B920C007FBAD6 /* CameraViewController.swift */; };
 		36A7CC8B221C963B007FBAD6 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC8A221C963B007FBAD6 /* PostCell.swift */; };
+		36A7CC8D22233E83007FBAD6 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36A7CC8C22233E83007FBAD6 /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		36A7CC86221B8629007FBAD6 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		36A7CC88221B920C007FBAD6 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		36A7CC8A221C963B007FBAD6 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		36A7CC8C22233E83007FBAD6 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		6C5E9C61666A1D2B05AA6451 /* Pods-unit5HW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit5HW.release.xcconfig"; path = "Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW.release.xcconfig"; sourceTree = "<group>"; };
 		9D445213D2B010A7C70D93D3 /* Pods_unit5HW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unit5HW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C6D63AD45C77B89B4FE3F7 /* Pods-unit5HW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit5HW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit5HW/Pods-unit5HW.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,6 +78,7 @@
 				36A7CC86221B8629007FBAD6 /* FeedViewController.swift */,
 				36A7CC88221B920C007FBAD6 /* CameraViewController.swift */,
 				36A7CC8A221C963B007FBAD6 /* PostCell.swift */,
+				36A7CC8C22233E83007FBAD6 /* CommentCell.swift */,
 			);
 			path = unit5HW;
 			sourceTree = "<group>";
@@ -200,6 +203,7 @@
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/MessageInputBar/MessageInputBar.framework",
 				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -209,6 +213,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MessageInputBar.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +233,7 @@
 				36A7CC87221B8629007FBAD6 /* FeedViewController.swift in Sources */,
 				36A7CC73221AA708007FBAD6 /* AppDelegate.swift in Sources */,
 				36A7CC8B221C963B007FBAD6 /* PostCell.swift in Sources */,
+				36A7CC8D22233E83007FBAD6 /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
