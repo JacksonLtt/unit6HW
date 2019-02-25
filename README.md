@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 - [x] User stays logged in across restarts. (1pt)
 - [x] User can log out. (1pt)
 - [x] User can view comments on a post. (3pts)
-- [] User can add a new comment. (5pts) I have tried to fixed the problem but it seems that it does not work.
+- [x] User can add a new comment. (5pts) I have tried to fixed the problem but it seems that it does not work.
 
 The following **bonus** features are implemented:
 
